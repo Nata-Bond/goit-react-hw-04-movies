@@ -1,0 +1,21 @@
+.header {
+  width: 120px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.linkActive {
+  color: red;
+}
